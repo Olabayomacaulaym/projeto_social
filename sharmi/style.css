@@ -35,17 +35,40 @@ main {
 
 }
 
-section#movel {
-
-            position: relative ;
-}
-
 #rame {
 
         position: absolute;
         top: 79px ;
         left: 22px ;
-        width: 268px;
+        width: 269px;
         height: 473px;
         border-radius: 2px ;
+}
+
+#social {
+
+        text-align: left;
+        padding: 12px ;
+
+}
+
+
+#social img {
+        
+        width: 50px ;
+        text-align: left;
+        margin: 8px ;
+        border-radius: 50% ;
+        box-shadow: 5px 10px 15px black;
+        
+}
+
+#social img:hover {
+
+        box-sizing: border-box;
+        box-shadow: 5px 10px 25px rgba(255, 255, 255, 0.671);
+        transform: translate(-5px,-5px );
+        border: 3px solid rgba(255, 255, 255, 0.884);
+        transition: transform 0.4s;
+
 }
