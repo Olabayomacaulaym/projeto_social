@@ -34,3 +34,18 @@ main {
         transform: translate(-50%,-50%);
 
 }
+
+section#movel {
+
+            position: relative ;
+}
+
+#rame {
+
+        position: absolute;
+        top: 79px ;
+        left: 22px ;
+        width: 268px;
+        height: 473px;
+        border-radius: 2px ;
+}
